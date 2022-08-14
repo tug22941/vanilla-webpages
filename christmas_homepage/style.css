@@ -1,0 +1,91 @@
+/*
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+*/
+body{
+    margin:0;
+    background-color: cornflowerblue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo-wrap{
+    display:flex;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.logo-wrap a{
+    padding:5px;
+    width:100%;
+}
+.logo-wrap img{
+    width: 50px;
+    transform:rotate(0deg);
+    transition: 300ms ease-in-out all;
+}
+
+.logo-wrap img:hover{
+    transform:rotate(360deg)
+}
+
+nav{
+    display:block;
+    background-color: rgb(88, 194, 88);
+    padding:10px;
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav li{
+    padding:5px;
+    flex-basis: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    color:#faea0e;
+    transition: 1s;
+}
+
+#hero-wrap{
+    background-image: url(../christmas_homepage/Images/hero.jpg);
+    background-size:cover;
+    height:50vh;
+}
+
+#bumper-slide{
+    background-color: #faea0e;
+    padding:50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#col-wrapper{
+    width:90%;
+    background-color: white;
+    display:flex;
+    margin:0 auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#col-wrapper p{
+    font-family: sans-serif;
+}
+#col-wrapper img{
+    width:100%;
+}
+.col{
+    flex: 1 1 100px;
+    padding: 5px;
+}
+
